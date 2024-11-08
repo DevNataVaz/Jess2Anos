@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Dia Especial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <img src="./danti/1.jpeg" alt="Foto 1">
+        <img src="./danti/2.jpeg" alt="Foto 2">
+        <img src="./danti/3.jpeg" alt="Foto 3">
+        <img src="./danti/4.jpeg" alt="Foto 4">
+        <img src="./danti/5.jpeg" alt="Foto 5">
+        <img src="./danti/6.jpeg" alt="Foto 6">
+        <img src="./danti/7.jpeg" alt="Foto 7">
+        <img src="./danti/8.jpeg" alt="Foto 8">
+        <img src="./danti/9.jpeg" alt="Foto 9">
+        <img src="./danti/10.jpeg" alt="Foto 10">
+        <img src="./danti/11.jpeg" alt="Foto 11">
+        <img src="./danti/12.jpeg" alt="Foto 12">
+        <img src="./danti/13.jpeg" alt="Foto 13">
+        <img src="./danti/14.jpeg" alt="Foto 14">
+        <img src="./danti/15.jpeg" alt="Foto 15">
+    </div>
+    
+    <div class="content">
+       
+    
+    <div id="page1" class="page">
+        <h1>Amor, você é tudo para mim!</h1>
+        <p>Eu amo você mais do que palavras podem dizer. Obrigado por estar ao meu lado.</p>
+        <button onclick="nextPage()">E aí, vamos decidir como será nosso dia especial?</button>
+    </div>
+
+    <div id="page2" class="page hidden">
+        <h2>Como você quer passar nosso dia?</h2>
+        <div class="options">
+            <div class="option" onclick="nextPage()">
+                <img src="./imgs/Shopping.jpg" alt="Passeio no Shopping">
+                <span>Passeio no Shopping</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./imgs/Cinema.webp" alt="Cinema">
+                <span>Cinema</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./imgs/DiaEmCasa.jpg" alt="Dia em casa juntos">
+                <span>Dia em casa juntos</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./imgs/MaratonaFilmes.webp" alt="Maratona de filmes e etc">
+                <span>Maratona de filmes e etc</span>
+            </div>
+        </div>
+    </div>
+    
+    <div id="page3" class="page hidden">
+        <h2>O que você quer almoçar?</h2>
+        <div class="options">
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/CervejaEPetiscos.jpg" alt="Petiscos e Cerveja">
+                <span>Petiscos e Cerveja</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Churrascaria.webp" alt="Churrascaria">
+                <span>Churrascaria</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Parmegiana.avif" alt="Parmegiana">
+                <span>Parmegiana</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Lanche.webp" alt="Lanche">
+                <span>Lanche</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="page4" class="page hidden">
+        <h2>Onde vamos jantar?</h2>
+        <div class="options">
+        <div class="option" onclick="nextPage()">
+            <img src="./danti/SUSHI.jpeg" alt="Yukiwari">
+            <span>Yukiwari</span>
+        </div>
+        <div class="option" onclick="nextPage()">
+            <img src="./danti/Perguntas/EspetoDoJuliao.webp" alt="Espetinho do Julião">
+            <span>Espetinho do Julião</span>
+        </div>
+        <div class="option" onclick="nextPage()">
+            <img src="./danti/Perguntas/CoronetoBBQ.webp" alt="Coroneto BBQ">
+            <span>Coroneto BBQ</span>
+        </div>
+        <div class="option" onclick="nextPage()">
+            <img src="./danti/Perguntas/Pizza.webp" alt="Pizza">
+            <span>Pizza</span>
+        </div>
+    </div>
+    </div>
+
+    
+    <div id="page5" class="page hidden">
+        <h2>O que faremos no final da noite?</h2>
+        <div class="options">
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/VinhoEPetisco.jpg" alt="Beber Vinho e Petiscos">
+                <span>Beber Vinho e Petiscos</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/VerSerie.webp" alt="Ver Série">
+                <span>Ver Série</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/JogarNoPC.jpg" alt="Jogar no PC">
+                <span>Jogar no PC</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Dormir.webp" alt="Dormir">
+                <span>Dormir</span>
+            </div>
+    </div>
+</div>
+
+    <div id="page6" class="page hidden">
+        <h2>O que você vai querer ganhar de presente???</h2>
+        <div class="options">
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/PulseiraDePrata.webp" alt="Pulseira de Prata">
+                <span>Pulseira de Prata</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Perfume.jpg" alt="Perfume">
+                <span>Perfume</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Creme.jpg" alt="Creme">
+                <span>Creme</span>
+            </div>
+            <div class="option" onclick="nextPage()">
+                <img src="./danti/Perguntas/Vestido.webp" alt="Vestido">
+                <span>Vestido</span>
+            </div>
+    </div>
+</div>
+
+ 
+    <div id="page7" class="page hidden">
+        <h2>Acho que chegamos a uma nova fase e esta na hora de você me dar algo mais especial! hihi</h2>
+        
+            <button onclick="nextPage()">Cool</button>
+            <button onclick="nextPage()">Cool e Buceta</button>
+            <button id="trickButton" onclick="trickButton()">Buceta</button>
+       
+        
+    </div>
+
+    
+    <div id="page8" class="page hidden">
+        <div class="declaracao">
+        <h1>Obrigado por ser quem você é. Te amo mais que tudo!</h1>
+        <p>Esse dia é só uma pequena prova do quanto você significa para mim.</p>
+        <p>Meu amor,
+
+            Hoje comemoramos o nosso primeiro ano juntos, e eu não consigo expressar o quanto sou grato por cada momento que passamos ao lado um do outro. Esse ano foi só o começo de algo maravilhoso, e eu sei que ainda temos tantas coisas incríveis para viver e conquistar juntos.
+            
+            Cada risada, cada desafio superado, cada sonho compartilhado me faz ter ainda mais certeza de que estamos construindo algo muito especial. Ao seu lado, tudo parece mais fácil, mais leve, e a vida tem muito mais sentido.
+            
+            Agradeço por cada apoio, por cada gesto de carinho e, principalmente, por ser quem você é: uma pessoa incrível que transforma minha vida para melhor todos os dias. Sei que, juntos, podemos conquistar muito mais, e tenho certeza de que o melhor ainda está por vir.
+            
+            Este é só o primeiro de muitos aniversários que vamos celebrar, e mal posso esperar para continuar ao seu lado, construindo nossa história, nossos sonhos e nosso futuro.
+            
+            Sei que, às vezes, temos algumas desavenças, mas isso só fortalece ainda mais o nosso amor e nos leva a um novo patamar. Tento melhorar a cada dia, e sei que você também faz o mesmo.
+            
+            Te amo profundamente e sou muito grato por tudo o que vivemos até aqui. Vamos continuar caminhando juntos, porque o nosso amor é apenas o começo de uma jornada linda que está só começando.
+            
+            Com todo o meu amor,
+            Danilo</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
